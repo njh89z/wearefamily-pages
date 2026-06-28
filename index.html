@@ -1,26 +1,30 @@
 <!doctype html>
 <html lang="ko">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>We Are Family 🍼</title>
-  <style>
-    html,body{height:100%;margin:0}
-    body{display:grid;place-items:center;font-family:system-ui,sans-serif;
-      background:#f7f2e7;color:#3a3128;text-align:center;padding:24px}
-    .card{max-width:520px}
-    h1{font-size:2rem;margin:.2em 0}
-    .muted{color:#8a7d6b}
-    .pix{font-size:3rem;letter-spacing:.2em;image-rendering:pixelated}
-  </style>
-</head>
-<body>
-  <main class="card">
-    <div class="pix">👨‍👩‍👦‍👦</div>
-    <h1>We Are Family</h1>
-    <p>둘째 아들 <b>또복이</b>의 탄생을 기념하는 픽셀 가족 게임</p>
-    <p class="muted">2026-06-28 · 곧 만나요 🍼</p>
-    <p class="muted">엄마 · 아빠 · 은호 · 또복이</p>
-  </main>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <title>We Are Family — 또복이가 온 날</title>
+    <style>
+      html, body {
+        margin: 0;
+        padding: 0;
+        background: #1a1726;
+        overflow: hidden;
+        height: 100%;
+      }
+      #game {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      /* 폰트 로딩 전 깜빡임 방지용 기본 폰트 */
+      * { font-family: system-ui, "Segoe UI", "Malgun Gothic", sans-serif; }
+    </style>
+    <script type="module" crossorigin src="/wearefamily-pages/assets/index-BRAm3vTj.js"></script>
+  </head>
+  <body>
+    <div id="game"></div>
+  </body>
 </html>
