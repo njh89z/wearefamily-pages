@@ -1,6 +1,6 @@
 // 또복이가 온 날 — 서비스워커 (설치 가능 + 오프라인)
 // HTML/매니페스트는 네트워크 우선(항상 최신 배포 반영), 해시 에셋은 캐시 우선.
-const CACHE = 'wf-cache-v3';
+const CACHE = 'wf-cache-v4';
 
 self.addEventListener('install', () => self.skipWaiting());
 
